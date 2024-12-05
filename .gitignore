@@ -1,0 +1,43 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore node.js dependencies
+node_modules/
+
+# Ignore tailwind and postcss generated files (if applicable)
+*.css.map
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore user-specific settings
+*.user
+*.vs/
+.vscode/
+.idea/
+
+# Ignore ASP.NET runtime files
+*.log
+wwwroot/
+
+# Ignore lock files
+package-lock.json
+
+# Ignore sensitive configuration (if applicable)
+appsettings.*.json
+!appsettings.json # Keep the base appsettings.json
+
+# Ignore migrations if auto-generated
+Migrations/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Ignore Tailwind and PostCSS build artifacts
+tailwind.config.js
+postcss.config.js

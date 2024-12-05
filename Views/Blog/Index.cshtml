@@ -1,0 +1,12 @@
+@model devmindfusion.ViewModels.BlogListViewModel
+
+<div>
+<h1>My Blog</h1>
+@foreach (var blog in Model.Blogs)
+{
+    <div>
+        <h2>@blog.Title</h2>
+        <p>@blog.Content</p>
+    </div>
+}
+</div>
